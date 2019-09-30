@@ -1,9 +1,9 @@
 <div class="main">
   <!--==============================content================================-->
 <!--==============================footer=================================-->
-<hr>
-    <footer class ="footer">
-      <p class="paragraphe_footer"><strong class="digit_footer">DigitalTouch</strong> <span>© 2019</span></p>
+
+  <footer class ="footer">
+    <p class="paragraphe_footer"><strong class="digit_footer">DigitalTouch</strong> <span>© 2019</span></p>
       Tous droits reservé <br>
         
       <div class="logo_footer">
