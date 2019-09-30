@@ -1,4 +1,4 @@
-<div class="main">
+
   <!--==============================content================================-->
 <!--==============================footer=================================-->
 
@@ -12,4 +12,3 @@
         <span class="mail_footer"> <a href=""><img src="img/cgon.png" alt="" width="32px" height="32px"></a></span>
       </div>
   </footer>	
-</div>  

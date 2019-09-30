@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.footer
+{
+    background-color:#151519;
+    font-family: cursive;
+
+}
+p
+{
+    text-align: center;
+}
+.digit_footer
+{
+    font-family: cursive;
+    text-transform:capitalize;
+    color: rgb(68, 68, 173);
+}
+.logo_footer
+{
+    
+    text-align: center;
+   
+}
+
+@media all and (max-width : 720px)
+{
+    
+
+}
