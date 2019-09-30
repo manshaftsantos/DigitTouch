@@ -8,8 +8,13 @@
     <title>Acceuil</title>
 </head>
 <body>
+<<<<<<< HEAD
 <?php include("includes/header.php"); ?>
 <?php include("includes/footer.php"); ?>
+=======
+<?php 
+include("includes/footer.php"); ?>
+>>>>>>> 08fbebf7c44d64e372525aaa50f46a92fbfe1efd
 
 </body>
 </html>
