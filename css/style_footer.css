@@ -2,6 +2,9 @@
     background-color:#151519;
     font-family: cursive;
 }
+p{
+    text-align: center;
+}
 .digit_footer{
     font-family: cursive;
     text-transform:capitalize;

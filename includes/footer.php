@@ -1,10 +1,10 @@
 <div class="main">
   <!--==============================content================================-->
 <!--==============================footer=================================-->
-<hr>
+
     <footer class ="footer">
       <p class="paragraphe_footer"><strong class="digit_footer">DigitalTouch</strong> <span>© 2019</span></p>
-      Tous droits reservé <br>
+      <p> Tous droits reservé </p> <br>
         
       <div class="logo_footer">
         <span class="twitter_footer"> <a href=""><img src="img/tt.png" alt="" width="40px" height="40px"></a></span>
