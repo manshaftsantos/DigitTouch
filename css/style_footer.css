@@ -1,0 +1,29 @@
+.footer{
+    background-color:#151519;
+    font-family: cursive;
+}
+.digit_footer{
+    font-family: cursive;
+    text-transform:capitalize;
+    color: rgb(68, 68, 173);
+}
+.logo_footer
+{
+    display: inline-block;
+    
+}
+.twitter_footer
+{
+    padding-bottom: 10px;
+    margin-right: 30px;
+}
+.facebook_footer
+{
+    margin-right: 30px;
+    padding-top: 5px;
+}
+.mail_footer
+{
+    margin-right: 30px;
+    padding-top: 5px;
+}
