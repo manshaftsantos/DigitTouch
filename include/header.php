@@ -3,10 +3,10 @@
 
 <nav class="nav_header">
     <ul class="ul_header">
-        <li class="li_header">acceuil</li>
-        <li class="li_header">forum</li>
-        <li class="li_header">contact</li>
-        <li class="li_header">à propos</li>
+        <li class="li_header">Acceuil</li>
+        <li class="li_header">Forum</li>
+        <li class="li_header">Contact</li>
+        <li class="li_header prop">A propos</li>
     </ul>
 </nav>
 
