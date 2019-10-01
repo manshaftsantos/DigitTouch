@@ -11,6 +11,17 @@
 <!---------Header------------------------------------------->
 <?php include("include/header.php")?>
 
+<section class="section_one">
+    <div class="texte_presentation">
+        <h1>
+            <span>DigitalTouch </span>, la solution pour donner vie a vos idees.
+        </h1>
+        <p class="slogan">Pensez et nous le realisons.</p>
+    </div>
+    <div class="img_presentation">
+        <img src="img/pc.png" alt="pc" >
+    </div>
+</section>
 <!---------Footer------------------------------------------->
 <?php include("include/footer.php")?>
 </body>
