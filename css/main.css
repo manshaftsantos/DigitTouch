@@ -43,9 +43,12 @@ li,a,h1,h2,h3,h4
 }
 footer
 {
+    text-align: center;
     background-color: #151519;
+    border: 2px solid red;
 }
 .digittouch
 {
     text-transform: uppercase;
+    color: blue;
 }
