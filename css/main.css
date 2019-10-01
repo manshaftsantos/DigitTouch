@@ -1,6 +1,8 @@
 footer
 {
+    text-align: center;
     background-color: #151519;
+    border: 2px solid red;
 }
 .digittouch
 {
