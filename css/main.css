@@ -41,7 +41,10 @@ li,a,h1,h2,h3,h4
 {
     background-color: #247fe6e5;
 }
-
+.current
+{
+    background-color: #247fe6e5;
+}
 footer
 {
     text-align: center;
