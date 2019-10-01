@@ -13,10 +13,37 @@ li,a,h1,h2,h3,h4,footer
 .nav_header
 {
     background-color: rgb(255, 255, 255);
+    width: 100vw;
+    margin: auto;
 }
 .ul_header
 {
     display: flex;
+    
+    width: 33vw;
+    margin: auto;
+    padding: 0;
+    
+}
+.li_header
+{
+    padding: 15px 2vw 15px 2vw;
+    text-align: center;
+    border-left: 1px solid #1515196c;
+    vertical-align: center;
+    
+}
+.prop
+{
+    border-right: 1px solid #1515196c;
+}
+.li_header:hover
+{
+    background-color: #247fe6e5;
+}
+.current
+{
+    background-color: #247fe6e5;
 }
 footer
 {
