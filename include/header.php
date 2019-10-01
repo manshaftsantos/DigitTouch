@@ -2,11 +2,11 @@
 <div class="icone">LOGO</div>
 
 <nav class="nav_header">
-    <ul>
-        <li>acceuil</li>
-        <li>forum</li>
-        <li>contact</li>
-        <li>à propos</li>
+    <ul class="ul_header">
+        <li class="li_header">acceuil</li>
+        <li class="li_header">forum</li>
+        <li class="li_header">contact</li>
+        <li class="li_header">à propos</li>
     </ul>
 </nav>
 

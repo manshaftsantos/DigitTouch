@@ -1,3 +1,23 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background-color: #151519;
+}
+li,a,h1,h2,h3,h4
+{
+    font-family: system-ui;
+    color: #151519;
+    list-style: none;
+}
+.nav_header
+{
+    background-color: rgb(255, 255, 255);
+}
+.ul_header
+{
+    display: flex;
+}
 footer
 {
     text-align: center;
