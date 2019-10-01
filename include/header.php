@@ -1,5 +1,5 @@
 <header>
-<div class="icone">LOGO</div>
+<div class="icone" align="center"><img src="img/logo.png" alt="logo digital touch" ></div>
 
 <nav class="nav_header">
     <ul class="ul_header">

@@ -39,8 +39,9 @@ li,a,h1,h2,h3,h4
 }
 .li_header:hover
 {
-    background-color: #247fe6c0;
+    background-color: #247fe6e5;
 }
+
 footer
 {
     text-align: center;
