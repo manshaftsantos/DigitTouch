@@ -4,7 +4,7 @@ body
     padding: 0;
     background-color: #151519;
 }
-li,a,h1,h2,h3,h4
+li,a,h1,h2,h3,h4,footer
 {
     font-family: system-ui;
     color: #151519;
@@ -21,11 +21,29 @@ li,a,h1,h2,h3,h4
 footer
 {
     text-align: center;
-    background-color: #151519;
-    border: 2px solid red;
+    background-color: #f2f2f7;
+    /*border: 2px solid red;*/
 }
-.digittouch
+.digit_footer
 {
-    text-transform: uppercase;
-    color: blue;
+    text-transform: capitalize;
+}
+.logo_gmail:hover
+{
+    width: 31px;
+    height: 32px;
+}
+.logo_facebook:hover
+{
+    width: 31px;
+    height: 32px;
+}
+.logo_twitter:hover
+{
+    width: 31px;
+    height: 32px;
+}
+img
+{
+    margin-bottom: 2ex
 }
