@@ -33,7 +33,17 @@
         </div>
     </div>
     <div class="section_one">
-
+        <div class="img_presentation">
+            <img src="img/image_mobile1.png" alt="image_mobile" >
+        </div>    
+        <div class="texte_presentation">
+            <h1 class="texte_noir">Création d'application mobile</h1>
+            <p class="slogan">Nos applications mobiles sont performantes, développées pour Android et iOS 
+            et offrent une expérience utilisateur optimale.</p>
+            <button class="btn_savoir">En savoir plus </button>
+        </div>
+        
+        
     </div>
     <div class="section_one">
 

@@ -108,13 +108,13 @@ footer img
 {
     background-image: url(../img/fond_section_two.jpg);
     background-size: cover;
-    height: 700px;
     width:100%;
 }
 .texte_noir
 {
     color:#151519;
 }
+.
 @media(max-width:860px)
 {
     .img_presentation
