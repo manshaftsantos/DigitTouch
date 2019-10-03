@@ -118,4 +118,32 @@ footer img
         height: 100vh;
         text-align: center;
     } 
+    .zone_saisie
+    {
+        padding-top: 23em;
+        padding-bottom: 0px;
+        
+    }
+    .zone_message
+    {
+       
+    }
+}
+.zone_message
+{
+    border: 1px solid red;
+    width: 70%;
+    height: 600px;
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: #3e3eac;
+    margin-top: 23px;
+}
+.zone_saisie
+{
+    margin-top: 63%;
+    padding-left: 25%;
+    border-top: 1px solid red;
+    padding-top: 7px;
+
 }
