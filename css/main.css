@@ -7,6 +7,9 @@ body
     background-size: cover;
     
 }
+header{
+    transition: 2s;
+}
 li,a,h1,h2,h3,h4,footer
 {
     font-family: system-ui;
@@ -79,7 +82,7 @@ footer
 {
     display: flex;
     justify-content: space-around;
-    
+    transition: 2s;
 }
 .pad{
     padding: 5vw 0 5vw 0;
