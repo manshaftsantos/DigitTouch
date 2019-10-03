@@ -1,0 +1,125 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    
+    background-image: url(../img/lll.jpg);
+    background-size: cover;
+    
+}
+li,a,h1,h2,h3,h4,footer
+{
+    font-family: system-ui;
+    color: #151519;
+    list-style: none;
+}
+h1
+{
+    color:white;
+}
+span
+{
+    color: #247fe6e5;
+}
+.nav_header
+{
+    background-color: #f2f2f7;
+    
+    margin: auto;
+}
+.ul_header
+{
+    display: flex;
+    
+    width: 33vw;
+    margin: auto;
+    padding: 0;
+    
+}
+.li_header
+{
+    padding: 15px 2vw 15px 2vw;
+    text-align: center;
+    border-left: 1px solid #1515196c;
+    vertical-align: center;
+    
+}
+.prop
+{
+    border-right: 1px solid #1515196c;
+}
+.li_header:hover
+{
+    background-color: #247fe691;
+}
+.current
+{
+    border-bottom: 5px solid #247fe6e5;
+}
+footer
+{
+    text-align: center;
+    background-color: #f2f2f7;
+    /*border: 2px solid red;*/
+}
+.digit_footer
+{
+    text-transform: capitalize;
+}
+.logo_gmail:hover
+{
+    width: 31px;
+    height: 31px;
+}
+.logo_facebook:hover
+{
+    width: 31px;
+    height: 31px;
+}
+.logo_twitter:hover
+{
+    width: 31px;
+    height: 31px;
+}
+footer img
+{
+    margin-bottom: 2ex
+}
+.section_one
+{
+    display: flex;
+    padding: 5vw 0 5vw 0;
+    justify-content: space-around;
+    
+}
+.texte_presentation
+{
+    color: #f2f2f7;
+    width: 28vw;
+    font-size: 30px;
+}
+.slogan
+{
+    color: rgb(116, 109, 109);
+    font-family: tahoma;
+    font-size: 20px;
+}
+@media(max-width:860px)
+{
+    .img_presentation
+    {
+        position:absolute;
+        visibility:hidden;
+    }
+    .texte_presentation
+    {
+        width: 100%;
+        padding: 0 2vw 0 2vw;
+    }
+    .section_one
+    {
+        display: block;
+        height: 100vh;
+        text-align: center;
+    } 
+}
