@@ -19,8 +19,21 @@
         <p class="slogan">Pensez et nous le realisons.</p>
     </div>
     <div class="img_presentation">
-        <img src="img/pc.png" alt="pc" >
+        <img src="img/pc1.png" alt="pc" >
     </div>
+</section>
+<section class="section_two">
+    
+<div id="one">
+
+</div>
+<div id="two">
+
+</div>
+<div id="three">
+
+</div>
+
 </section>
 <!---------Footer------------------------------------------->
 <?php include("include/footer.php")?>
