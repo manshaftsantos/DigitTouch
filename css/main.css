@@ -66,17 +66,17 @@ footer
 .logo_gmail:hover
 {
     width: 31px;
-    height: 32px;
+    height: 31px;
 }
 .logo_facebook:hover
 {
     width: 31px;
-    height: 32px;
+    height: 31px;
 }
 .logo_twitter:hover
 {
     width: 31px;
-    height: 32px;
+    height: 31px;
 }
 footer img
 {
@@ -87,6 +87,7 @@ footer img
     display: flex;
     padding: 5vw 0 5vw 0;
     justify-content: space-around;
+    
 }
 .texte_presentation
 {
