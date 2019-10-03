@@ -40,8 +40,9 @@ span
 {
     padding: 15px 2vw 15px 2vw;
     text-align: center;
-    border-left: 1px solid #1515196c;
+    color: #151519;
     vertical-align: center;
+    
     
 }
 .prop
@@ -50,11 +51,14 @@ span
 }
 .li_header:hover
 {
-    background-color: #247fe691;
+    background-color: #15151949;
+    transition: 0.5s;
 }
 .current
 {
-    border-bottom: 5px solid #247fe6e5;
+    
+    background-color: #151519;
+    color:#fff;
 }
 footer
 {
