@@ -88,9 +88,11 @@ footer img
 .section_one
 {
     display: flex;
-    padding: 5vw 0 5vw 0;
     justify-content: space-around;
     
+}
+.pad{
+    padding: 5vw 0 5vw 0;
 }
 .texte_presentation
 {
