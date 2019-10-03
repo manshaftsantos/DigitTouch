@@ -40,8 +40,9 @@ span
 {
     padding: 15px 2vw 15px 2vw;
     text-align: center;
-    border-left: 1px solid #1515196c;
+    color: #151519;
     vertical-align: center;
+    
     
 }
 .prop
@@ -50,48 +51,39 @@ span
 }
 .li_header:hover
 {
-    background-color: #247fe691;
+    background-color: #15151949;
+    transition: 0.5s;
 }
 .current
 {
-    border-bottom: 5px solid #247fe6e5;
+    
+    background-color: #151519;
+    color:#fff;
 }
 footer
 {
     text-align: center;
     background-color: #f2f2f7;
-    /*border: 2px solid red;*/
 }
 .digit_footer
 {
-    text-transform: capitalize;
+   
 }
-.logo_gmail:hover
+.logos:hover
 {
     width: 31px;
     height: 31px;
 }
-.logo_facebook:hover
-{
-    width: 31px;
-    height: 31px;
-}
-.logo_twitter:hover
-{
-    width: 31px;
-    height: 31px;
-}
-footer img
-{
-    margin-bottom: 2ex
-}
+
 .section_one
 {
     display: flex;
-    padding: 5vw 0 5vw 0;
     justify-content: space-around;
     transition: 1s;
     
+}
+.pad{
+    padding: 5vw 0 5vw 0;
 }
 .texte_presentation
 {
@@ -110,6 +102,30 @@ footer img
     font-family: tahoma;
     font-size: 20px;
     transition: 1s;
+}
+.section_two
+{
+    background-image: url(../img/fond_section_two.jpg);
+    background-size: cover;
+    width:100%;
+    padding-bottom: 100px;
+}
+.texte_noir
+{
+    color:#151519;
+}
+.btn_savoir{
+    color: #151519;
+    background-color:#247fe6e5;
+    border: none;
+    padding: 15px;
+    border-radius: 3px;
+    transition: 1s; 
+}
+.btn_savoir:hover{
+    background-color:#247fe6b4;
+    transition: 1s;
+    box-shadow: 2px 2px 6px 2px #15151949; 
 }
 @media(max-width:860px)
 {
