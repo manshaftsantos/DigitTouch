@@ -27,9 +27,10 @@
     <div class="section_one">
         <div class="texte_presentation">
             <h1 class="texte_noir">Création de site web</h1>
+            <p class="slogan">Blog, E-commerce, site vitrine, espace administrateur... Notre équipe a l'expérience nécessaire pour développer tout type de projet web.</p>
         </div>
         <div class="img_presentation">
-            <img src="img/pc1.png" alt="pc" >
+            <img src="img/creation_site_int.png" alt="pc" >
         </div>
     </div>
     <div class="section_one">
