@@ -116,7 +116,18 @@ footer img
 {
     color:#151519;
 }
-.
+.btn_savoir{
+    color: #151519;
+    background-color:#247fe6e5;
+    border: none;
+    padding: 15px;
+    border-radius: 3px;
+    transition: 1s; 
+}
+.btn_savoir:hover{
+    background-color:#247fe6b4;
+    transition: 1s;
+}
 @media(max-width:860px)
 {
     .img_presentation
