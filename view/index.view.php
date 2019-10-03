@@ -24,15 +24,20 @@
 </section>
 <section class="section_two">
     
-<div id="one">
+    <div class="section_one">
+        <div class="texte_presentation">
+            <h1>Création de site web</h1>
+        </div>
+        <div class="img_presentation">
+            <img src="img/pc1.png" alt="pc" >
+        </div>
+    </div>
+    <div class="section_one">
 
-</div>
-<div id="two">
+    </div>
+    <div class="section_one">
 
-</div>
-<div id="three">
-
-</div>
+    </div>
 
 </section>
 <!---------Footer------------------------------------------->
