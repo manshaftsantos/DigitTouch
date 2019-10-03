@@ -12,7 +12,7 @@
 <?php include("include/header.php") ?>
 
 <section class="zone_message">  
-    <div class="titre"><a href=""> Forum</a>
+    <div class="titre"><a href="">Forum</a>
     </div>
     <div class="color">
     <div class="formulaire"> 
