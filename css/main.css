@@ -104,6 +104,13 @@ footer img
     font-family: tahoma;
     font-size: 20px;
 }
+.section_two
+{
+    background-image: url(../img/fond_section_two.jpg);
+    background-size: cover;
+    height: 700px;
+    width:100%;
+}
 @media(max-width:860px)
 {
     .img_presentation
