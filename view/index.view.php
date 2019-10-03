@@ -26,7 +26,7 @@
     
     <div class="section_one">
         <div class="texte_presentation">
-            <h1>Création de site web</h1>
+            <h1 class="texte_noir">Création de site web</h1>
         </div>
         <div class="img_presentation">
             <img src="img/pc1.png" alt="pc" >
