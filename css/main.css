@@ -5,7 +5,7 @@ body
     
     background-image: url(../img/lll.jpg);
     background-size: cover;
-    
+    transition: 1s;
 }
 li,a,h1,h2,h3,h4,footer
 {
@@ -24,7 +24,7 @@ span
 .nav_header
 {
     background-color: #f2f2f7;
-    
+    transition: 1s;
     margin: auto;
 }
 .ul_header
@@ -79,6 +79,7 @@ footer
 {
     display: flex;
     justify-content: space-around;
+    transition: 1s;
     
 }
 .pad{
@@ -89,12 +90,18 @@ footer
     color: #f2f2f7;
     width: 28vw;
     font-size: 30px;
+    transition: 1s;
+}
+.img_presentation
+{
+    transition: 1s;
 }
 .slogan
 {
     color: rgb(116, 109, 109);
     font-family: tahoma;
     font-size: 20px;
+    transition: 1s;
 }
 .section_two
 {
