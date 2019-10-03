@@ -19,7 +19,7 @@
         <p class="slogan">Pensez et nous le realisons.</p>
     </div>
     <div class="img_presentation">
-        <img src="img/pc1.png" alt="pc" >
+        <img src="img/first.png" alt="pc" >
     </div>
 </section>
 
