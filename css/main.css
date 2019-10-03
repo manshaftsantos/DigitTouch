@@ -5,7 +5,7 @@ body
     
     background-image: url(../img/lll.jpg);
     background-size: cover;
-    
+    transition: 1s;
 }
 header{
     transition: 2s;
@@ -15,6 +15,7 @@ li,a,h1,h2,h3,h4,footer
     font-family: system-ui;
     color: #151519;
     list-style: none;
+    text-decoration: none;
 }
 h1
 {
@@ -27,7 +28,7 @@ span
 .nav_header
 {
     background-color: #f2f2f7;
-    
+    transition: 1s;
     margin: auto;
 }
 .ul_header
@@ -82,7 +83,12 @@ footer
 {
     display: flex;
     justify-content: space-around;
+<<<<<<< HEAD
     transition: 2s;
+=======
+    transition: 1s;
+    
+>>>>>>> 417f00d1302ce97167a4eb0a9fa29b9af35c5603
 }
 .pad{
     padding: 5vw 0 5vw 0;
@@ -92,12 +98,18 @@ footer
     color: #f2f2f7;
     width: 28vw;
     font-size: 30px;
+    transition: 1s;
+}
+.img_presentation
+{
+    transition: 1s;
 }
 .slogan
 {
     color: rgb(116, 109, 109);
     font-family: tahoma;
     font-size: 20px;
+    transition: 1s;
 }
 .section_two
 {
@@ -123,6 +135,90 @@ footer
     transition: 1s;
     box-shadow: 2px 2px 6px 2px #15151949; 
 }
+.zone_message
+{
+    border: none;
+    width: 80%;
+    
+    margin: auto;
+    margin-top: 18px;
+    background-color: #f2f2f7;
+    margin-bottom: 100px;
+}
+.titre
+{
+    border-bottom: 1px solid black;
+    height: 7%;
+    padding: 17px;
+    padding-left: 100px;
+    background-color: #247fe6e5;
+
+}
+.formulaire
+{
+    width: 70%;
+
+    
+    box-shadow: 1px 0px 10px 0px rgba(71, 68, 68, 0.322); 
+    padding-top: 50px
+}
+.form
+{
+    
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 5%;
+  
+}
+.text
+{
+    height: 25px;
+    border-radius: 5px;
+    border: solid 1px darkgray
+}
+.select 
+{
+    height: 30px;
+    border-radius: 5px;
+    border: solid 1px darkgray
+    
+}
+.connection
+{
+    
+    
+    display: flex;
+    justify-content: space-between;
+
+}
+.pseudo, .email
+{
+    height: 25px;
+    border-radius: 5px;
+    border: solid 1px darkgray;
+    width: 48%
+}
+
+.check1
+{
+    font-family: system-ui;
+    justify-content: space-between;
+}
+.check_box
+{
+    width: 17px;
+    height: 17px;
+}
+.envoyer
+{
+    width: 75px;
+    height: 27px;
+    border-radius: 5px;
+    background-color: #247fe6e5;
+    border: none
+}
 @media(max-width:860px)
 {
     .img_presentation
@@ -141,4 +237,10 @@ footer
         height: 100vh;
         text-align: center;
     } 
+    .formulaire
+    {
+        width: 100%;
+        
+    }
 }
+
