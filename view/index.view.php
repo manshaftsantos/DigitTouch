@@ -11,7 +11,7 @@
 <!---------Header------------------------------------------->
 <?php include("include/header.php")?>
 
-<section class="section_one">
+<section class="section_one pad">
     <div class="texte_presentation">
         <h1>
             <span>DigitalTouch </span>, la solution pour donner vie a vos idees.
@@ -19,10 +19,48 @@
         <p class="slogan">Pensez et nous le realisons.</p>
     </div>
     <div class="img_presentation">
-        <img src="img/pc.png" alt="pc" >
+        <img src="img/first.png" alt="pc" >
     </div>
 </section>
-<!---------Footer------------------------------------------->
+
+<section class="section_two">
+    
+    <div class="section_one">
+        <div class="texte_presentation">
+            <h1 class="texte_noir">Création de site web</h1>
+            <p class="slogan">Blog, E-commerce, site vitrine, espace administrateur... Notre équipe a l'expérience nécessaire pour développer tout type de projet web.</p>
+            <button class="btn_savoir">En savoir plus </button>
+        </div>
+        <div class="img_presentation">
+            <img src="img/creation_site_int.png" alt="pc" >
+        </div>
+    </div>
+    
+    <div class="section_one">
+        <div class="img_presentation">
+            <img src="img/image_mobile1.png" alt="image_mobile" >
+        </div>    
+        <div class="texte_presentation">
+            <h1 class="texte_noir">Création d'application mobile</h1>
+            <p class="slogan">Nos applications mobiles sont performantes, développées pour Android et iOS 
+            et offrent une expérience utilisateur optimale.</p>
+            <button class="btn_savoir">En savoir plus </button>
+    </div>    
+</div>
+
+    <div class="section_one">
+        <div class="texte_presentation">
+            <h1 class="texte_noir">Création de logos, flyers etc... </h1>
+            <p class="slogan">Blog, E-commerce, site vitrine, espace administrateur... Notre équipe a l'expérience nécessaire pour développer tout type de projet web.</p>
+            <button class="btn_savoir">En savoir plus </button>
+        </div>
+        <div class="img_presentation">
+            <img src="img/logo_flyers.png" alt="pc" >
+        </div>
+    </div>
+
+</section>
+
 <?php include("include/footer.php")?>
 </body>
 </html>
