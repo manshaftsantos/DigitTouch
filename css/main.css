@@ -242,18 +242,21 @@ footer
 .bouton_recherche
 {
     display: inline-block;
-    border: 1px solid black;
-    width: 3%;
-    height: 25px;
-  background-color: black
+    border: 1px solid blue;
+    
+    background-color: rgb(247, 243, 243);
+    
 }
 .recherche
 
 {
     
     border: none;
-    background-color: #247fe600;
-    height: 25px
+    background-color:rgb(253, 247, 247);
+    height: 25px;
+    font-style: italic;
+    color: black;
+    margin-left: 20%;
 
 }
 .les_messages
@@ -267,10 +270,7 @@ footer
 }
 .nos_messages
 {
-    height: 60px;
-    width: 100%;
-    display: inline-flex;
-    background-color: #7878f35b;
+    border: 1px solid blue;
 }
 .message_suivant
 {
@@ -284,27 +284,8 @@ footer
     display: flex;
     flex-direction: column;
 }
-.user_pseudo
-{
-    height: 55%;
-    width: 100px;
-    border-right: 1px solid black;
-   
-    padding-left: 13px;
-    margin-top:2%;
-    margin-bottom: 2%;
-}
-.user_message
-{
-    height: 55%;
-    width: 450px;
-    border-right: 1px solid black;
-   
-    padding-left: 2px;
-    margin-top:2%;
-    margin-bottom: 2%;
-    display: inline;
-}
+
+
 .message_info
 {
     height: 55%;
@@ -391,6 +372,51 @@ footer
     width: 200px;
     height:400px;
     
+}
+.div_msg
+{
+    border-bottom: 10px solid darkgray;
+    display: flex;
+    flex-direction: column;
+    background-color: darkgray;
+}
+.pseudo_msg
+{
+    display: flex;
+    font-family: system-ui;
+}
+.user_msg 
+{
+    border: 1px solid rgb(190, 181, 181);
+    padding: 10px;
+   
+}
+.user_pseudo
+{
+    border: 1px solid darkgray;
+    width: 20%;
+    height: 50px;
+    padding: 10px
+}
+.footer_msg
+{
+    display: flex;
+    justify-content: flex-end;
+}
+.user_date
+{
+    margin-right: 10%;
+}
+.reponses
+{
+    margin-right: 10%;
+}
+.btn_reponses
+{
+    background-color: rgb(107, 107, 170);
+    width: 100px;
+    border: 1px solid darkgray;
+    font-weight: bolder;
 }
 @media(max-width:860px)
 {

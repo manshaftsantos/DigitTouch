@@ -13,10 +13,13 @@
 
 <section class="zone_message">  
     <div class="titre">
-        <a href="forum.php"class="le_forum" >Forum</a> |
-        <a  class="les_messages" href="forum.messages.php">Méssages</a> |
-        <a  class="les_messages" href="forum.messages.php">Cathegories</a> 
-        <form action="" class="form_class"  ><input type="search" class="recherche" placeholder="Rechercher..." name="" id=""><input type="button"  class="bouton_recherche" value=""></form>
+        <a href="forum.php"class="le_forum" >Poser votre question</a> |
+        <a  class="les_messages" href="forum.messages.php">listes des messages</a> |
+        <a  class="les_messages" href="forum.messages.php">sujet</a> |
+        <form action="" class="form_class"  >
+                <input type="search" class="recherche" placeholder="Rechercher..." name="" id="">
+                <input type="button"  class="bouton_recherche" value="rechercher">
+        </form>
     </div>
     <div class="color">
     
@@ -38,4 +41,4 @@
 
 <?php include("include/footer.php") ?>
 </body>
-</html>
+</html

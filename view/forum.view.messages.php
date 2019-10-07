@@ -16,41 +16,103 @@
         <a href="forum.php"class="le_forum" >Forum</a> |
         <a  class="les_messages" href="forum.messages.php">Méssages</a>
     </div>
-    <div class="color">
-    <div class="formulaire"><div align=right  class="creer_message"><a class="creer" href="">ecrire un message</a></div>
-        <div class="font">
-            <div class="nos_messages">
-                <div align=center class="user_pseudo">pseudo </div>
-                <div align=center class="user_message">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere reiciendis perferendis maiores co </div>
-                <div align=center class="message_info"> le : 27/06/2019 </div>
-             </div>
-             <div class="message_suivant">
-                <div align=center class="user_pseudo">pseudo </div>
-                <div align=center class="user_message">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere reiciendis perferendis maiores co </div>
-                <div align=center class="message_info"> le : 27/06/2019 </div>
-             </div>
-             <div class="nos_messages">
-                <div align=center class="user_pseudo">pseudo </div>
-                <div align=center class="user_message">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere reiciendis perferendis maiores co </div>
-                <div align=center class="message_info"> le : 27/06/2019 </div>
-             </div>
-             <div class="message_suivant">
-                <div align=center class="user_pseudo">pseudo </div>
-                <div align=center class="user_message">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere reiciendis perferendis maiores co </div>
-                <div align=center class="message_info"> le : 27/06/2019 </div>
-             </div>
-             <div class="nos_messages">
-                <div align=center class="user_pseudo">pseudo </div>
-                <div align=center class="user_message">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere reiciendis perferendis maiores co </div>
-                <div align=center class="message_info"> le : 27/06/2019 </div>
-             </div>
-             <div class="message_suivant">
-                <div align=center class="user_pseudo">pseudo </div>
-                <div align=center class="user_message">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere reiciendis perferendis maiores co </div>
-                <div align=center class="message_info"> le : 27/06/2019 </div>
-             </div>
-        </div>
-    </div>
+   <div class="div_msg">
+      <div class="pseudo_msg">
+         <div class="user_pseudo" >pseudo</div>
+         <div class="user_msg" >
+         Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum cumque voluptatibus veniam atque fugiat cum tempore repellat error placeat velit similique, aliquam omnis quia impedit, natus itaque ea voluptatem est.
+         </div>
+      </div>
+      <div class="footer_msg">
+          <div class="user_date" >le 12.03.2019 à 15h</div>
+         <div class="reponses"><input class="btn_reponses" type="submit" value="reponses"></div>
+      </div>
+   </div>
+   <div class="div_msg">
+      <div class="pseudo_msg">
+         <div class="user_pseudo" >pseudo</div>
+         <div class="user_msg" >
+         Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum cumque voluptatibus veniam atque fugiat cum tempore repellat error placeat velit similique, aliquam omnis quia impedit, natus itaque ea voluptatem est.
+         </div>
+      </div>
+      <div class="footer_msg">
+          <div class="user_date" >le 12.03.2019 à 15h</div>
+         <div class="reponses"><input class="btn_reponses" type="submit" value="reponses"></div>
+      </div>
+   </div>
+   <div class="div_msg">
+      <div class="pseudo_msg">
+         <div class="user_pseudo" >pseudo</div>
+         <div class="user_msg" >
+         Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum cumque voluptatibus veniam atque fugiat cum tempore repellat error placeat velit similique, aliquam omnis quia impedit, natus itaque ea voluptatem est.
+         </div>
+      </div>
+      <div class="footer_msg">
+          <div class="user_date" >le 12.03.2019 à 15h</div>
+         <div class="reponses"><input class="btn_reponses" type="submit" value="reponses"></div>
+      </div>
+   </div>
+   <div class="div_msg">
+      <div class="pseudo_msg">
+         <div class="user_pseudo" >pseudo</div>
+         <div class="user_msg" >
+         Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum cumque voluptatibus veniam atque fugiat cum tempore repellat error placeat velit similique, aliquam omnis quia impedit, natus itaque ea voluptatem est.
+         </div>
+      </div>
+      <div class="footer_msg">
+          <div class="user_date" >le 12.03.2019 à 15h</div>
+         <div class="reponses"><input class="btn_reponses" type="submit" value="reponses"></div>
+      </div>
+   </div>
+   <div class="div_msg">
+      <div class="pseudo_msg">
+         <div class="user_pseudo" >pseudo</div>
+         <div class="user_msg" >
+         Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum cumque voluptatibus veniam atque fugiat cum tempore repellat error placeat velit similique, aliquam omnis quia impedit, natus itaque ea voluptatem est.
+         </div>
+      </div>
+      <div class="footer_msg">
+          <div class="user_date" >le 12.03.2019 à 15h</div>
+         <div class="reponses"><input class="btn_reponses" type="submit" value="reponses"></div>
+      </div>
+   </div>
+   <div class="div_msg">
+      <div class="pseudo_msg">
+         <div class="user_pseudo" >pseudo</div>
+         <div class="user_msg" >
+         Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum cumque voluptatibus veniam atque fugiat cum tempore repellat error placeat velit similique, aliquam omnis quia impedit, natus itaque ea voluptatem est.
+         </div>
+      </div>
+      <div class="footer_msg">
+          <div class="user_date" >le 12.03.2019 à 15h</div>
+         <div class="reponses"><input class="btn_reponses" type="submit" value="reponses"></div>
+      </div>
+   </div>
+   <div class="div_msg">
+      <div class="pseudo_msg">
+         <div class="user_pseudo" >pseudo</div>
+         <div class="user_msg" >
+         Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum cumque voluptatibus veniam atque fugiat cum tempore repellat error placeat velit similique, aliquam omnis quia impedit, natus itaque ea voluptatem est.
+         </div>
+      </div>
+      <div class="footer_msg">
+          <div class="user_date" >le 12.03.2019 à 15h</div>
+         <div class="reponses"><input class="btn_reponses" type="submit" value="reponses"></div>
+      </div>
+   </div>
+   <div class="div_msg">
+      <div class="pseudo_msg">
+         <div class="user_pseudo" >pseudo</div>
+         <div class="user_msg" >
+         Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum cumque voluptatibus veniam atque fugiat cum tempore repellat error placeat velit similique, aliquam omnis quia impedit, natus itaque ea voluptatem est.
+         </div>
+      </div>
+      <div class="footer_msg">
+          <div class="user_date" >le 12.03.2019 à 15h</div>
+         <div class="reponses"><input class="btn_reponses" type="submit" value="reponses"></div>
+      </div>
+   </div>
+   
 </section>
 
 
