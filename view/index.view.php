@@ -19,7 +19,20 @@
         <p class="slogan">Pensez et nous le realisons.</p>
     </div>
     <div class="img_presentation">
-        <img src="img/first.png" alt="pc" >
+    <div id='alogos'>
+            <img class="alog " src="img/first.png" alt="pc" >
+            <img class="alogo un" src="img/0.png" alt="pc" >
+            <img class="alogo deux" src="img/2.png" alt="pc" >
+            <img class="alogo trois" src="img/3.png" alt="pc" >
+            <img class="alogo quatre" src="img/4.png" alt="pc" >
+            <img class="alogo cinq" src="img/5.png" alt="pc" >
+            <img class="alogo six" src="img/6.png" alt="pc" >
+            <img class="alogo sept" src="img/7.png" alt="pc" >
+            <img class="alogo huit" src="img/8.png" alt="pc" >
+            <img class="alogo neuf" src="img/9.png" alt="pc" >
+            <img class="alogo dix" src="img/10.png" alt="pc" >
+            <img class="alogo onze" src="img/11.png" alt="pc" >
+         </div>
     </div>
 </section>
 
