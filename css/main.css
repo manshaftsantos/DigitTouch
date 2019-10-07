@@ -392,6 +392,70 @@ footer
     height:400px;
     
 }
+.scontact
+{
+    
+    background-image: url(../img/fond_section_two.jpg);
+    width: 90%;
+    margin: auto;
+    background-size: cover;
+    font-family: system-ui;
+    margin-bottom: 4vh;
+    margin-top: 4vh;
+    padding-bottom: 10vh;
+    padding-top: 5vh;
+}
+.mcontact h1{
+    color: #151519;
+}
+#hr1{
+    border: none;
+    border-bottom: 1px solid #247fe6e5;
+    width: 10%;
+    
+}
+#hr2{
+    border: none;
+    border-bottom: 1px solid #247fe6e5;
+    width: 5%;
+    
+}
+.tcontact
+{
+    color: rgb(116, 109, 109);
+    font-size: 18px;
+    font-family: system-ui;
+    margin-bottom: 100px;
+}
+.cform{
+    display: grid;
+    grid-template-columns: 35% 35% 35%;
+    width: 83%;
+    margin: auto;
+    
+}
+.cform label
+{
+    font-style: system-ui;
+    font-weight: bold;
+    
+}
+.cform input ,textarea
+{
+    border: 1px solid #247fe6e5;
+}
+.cform input
+{
+    
+    height: 40px;
+    width: 80%;
+    margin-bottom: 50px;
+    
+}
+.lsub
+{
+    margin-left: 8.5%;
+}
 @media(max-width:860px)
 {
     .img_presentation
