@@ -10,7 +10,8 @@
 <body>
 <!---------Header------------------------------------------->
 <?php include("include/header.php")?>
-
+<section class="scontact">
+</section>
 
 <!---------Footer------------------------------------------->
 <?php include("include/footer.php")?>
