@@ -314,6 +314,84 @@ footer
     margin-bottom: 2%;
     display: inline;
 }
+.alogo
+{
+    position: absolute;
+    transition: .5s;
+}
+.alog
+{
+    position: absolute;
+}
+.alogo:hover
+{
+    transform: scale(1.3,1.3);
+    transition: .5s;
+    z-index: 55;
+}
+.un
+{
+    left: 85%;
+    top:20%;
+}
+.deux
+{
+    left: 83.58%;
+    top:44%;
+}
+.trois
+{
+    left: 51.5%;
+    top:31.9%;
+}
+.quatre
+{
+    left: 118%;
+    top:37.2%;
+}
+.cinq
+{
+    left: 140%;
+    top:30%;
+}
+.six
+{
+    left: 140%;
+    top:11.8%;
+}
+.sept
+{
+    left: 100%;
+    top:62.5%;
+}
+.huit
+{
+    left: 138%;
+    top:61%;
+}
+.neuf
+{
+    left: 149.2%;
+    top:47%;
+}
+.dix
+{
+    left: 117.8%;
+    top:0%;
+}
+.onze
+{
+    left: 167%;
+    top:23%;
+}
+#alogos
+{
+    position: relative;
+    right: 100%;
+    width: 200px;
+    height:400px;
+    
+}
 @media(max-width:860px)
 {
     .img_presentation
