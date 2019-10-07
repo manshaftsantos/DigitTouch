@@ -1,0 +1,1 @@
+<?php include("view/forum.view.messages.php"); ?>
