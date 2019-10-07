@@ -12,7 +12,9 @@
 <?php include("include/header.php") ?>
 
 <section class="zone_message">  
-    <div class="titre"><a href="">Forum</a>
+    <div class="titre">
+        <a href="forum.php"class="le_forum" >Forum</a> |
+        <a  class="les_messages" href="forum.messages.php">Méssages</a>
     </div>
     <div class="color">
     <div class="formulaire"> 
@@ -22,8 +24,8 @@
                 <option value="css">css</option>
             </select><br><br>
         
-            <input type="text" name="titre" placeholder="  titre..." class="text" ><br><br>
-            <textarea name="commentaire" id="" cols="30" rows="10" class="comment"></textarea><br>
+            <input type="text" name="titre" placeholder="  sujet..." class="text" ><br><br>
+            <textarea name="commentaire" id="" cols="30" rows="10" class="comment" placeholder=" Aaa..."></textarea><br>
             <div class="connection">
                 <input type="text" name="pseudo" placeholder=" pseudo" class="pseudo">
                 <input type="email" name="email" placeholder=" Email" class="email" >
