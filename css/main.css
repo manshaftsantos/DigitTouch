@@ -83,6 +83,10 @@ footer
 {
     display: flex;
     justify-content: space-around;
+
+    transition: 2s;
+    transition: 1s;
+
     transition: 2s;
     margin-bottom: 150px;
 }
@@ -135,10 +139,9 @@ footer
 {
     border: none;
     width: 80%;
-    
     margin: auto;
     margin-top: 18px;
-    background-color: #f2f2f7;
+    background-image: url(../img/fond_section_two.jpg);
     margin-bottom: 50px;
 }
 .titre
@@ -238,19 +241,32 @@ footer
 .bouton_recherche
 {
     display: inline-block;
-    border: 1px solid black;
-    width: 3%;
-    height: 25px;
-  background-color: black
+    border: 1px solid blue;
+    
+    background-color: rgb(247, 243, 243);
+    
 }
 .recherche
 
 {
     
     border: none;
-    background-color: #247fe600;
-    height: 25px
+    background-color:rgb(253, 247, 247);
+    height: 25px;
+    font-style: italic;
+    color: black;
+    margin-left: 20%;
 
+}
+.nom_cat
+{
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.la_division
+{
+    width: 100%;
+    height: 60px;
 }
 .les_messages
 {
@@ -263,10 +279,7 @@ footer
 }
 .nos_messages
 {
-    height: 60px;
-    width: 100%;
-    display: inline-flex;
-    background-color: #7878f35b;
+    border: 1px solid blue;
 }
 .message_suivant
 {
@@ -280,27 +293,8 @@ footer
     display: flex;
     flex-direction: column;
 }
-.user_pseudo
-{
-    height: 55%;
-    width: 100px;
-    border-right: 1px solid black;
-   
-    padding-left: 13px;
-    margin-top:2%;
-    margin-bottom: 2%;
-}
-.user_message
-{
-    height: 55%;
-    width: 450px;
-    border-right: 1px solid black;
-   
-    padding-left: 2px;
-    margin-top:2%;
-    margin-bottom: 2%;
-    display: inline;
-}
+
+
 .message_info
 {
     height: 55%;
@@ -388,6 +382,60 @@ footer
     height:400px;
     
 }
+.div_msg2
+{
+    border-bottom: 10px solid rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+}
+
+.div_msg
+{
+    border-bottom: 10px solid rgb(233, 230, 230);
+    display: flex;
+    flex-direction: column;
+    background-image: url(../img/fond_section_two.jpg);
+}
+.pseudo_msg
+{
+    display: flex;
+    font-family: system-ui;
+}
+.user_msg 
+{
+   /* border: 1px solid rgb(190, 181, 181);*/
+    padding: 10px;
+   
+}
+.user_pseudo
+{
+    width: 20%;
+    height: 50px;
+    padding: 10px
+}
+.footer_msg
+{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.user_date
+{
+    margin-right: 10%;
+}
+.reponses
+{
+    margin-right: 10%;
+    margin-bottom: 10px;
+}
+.btn_reponses
+{
+    background-color: rgb(107, 107, 170);
+    width: 100px;
+    border: 1px solid darkgray;
+    font-weight: bolder;
+}    
 .scontact
 {
     
@@ -452,6 +500,42 @@ footer
 {
     margin-left: 8.5%;
 }
+<<<<<<< HEAD
+.sujet
+{
+    background-image: url(../img/fond_section_two.jpg);
+}
+table
+{
+    border: 1px solid blue;
+    border-collapse: collapse;
+    width: 70%;
+    margin: auto;
+}
+td
+{
+    height:6em;
+    border: 1px solid darkgray;
+    text-align: center;
+    text-transform: uppercase;
+}
+.lien_cat:hover
+{
+    color: blue;
+    text-decoration: underline;
+}
+.div_reponses
+{
+    border-radius: 5%;
+    font-family: system-ui;
+}
+.reponses
+{
+    border: 1px solid blue;
+    background-color: blue;
+    border-radius: 10%;
+    padding: 5px;
+}
 .sdeveloppement{
     display: flex;
     padding: 0px 50px 10px 50px;
@@ -463,7 +547,6 @@ footer
 {
     width: 33%;
 }
-
 @media(max-width:860px)
 {
     .img_presentation
