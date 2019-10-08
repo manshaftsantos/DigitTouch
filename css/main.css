@@ -83,12 +83,8 @@ footer
 {
     display: flex;
     justify-content: space-around;
-<<<<<<< HEAD
     transition: 2s;
-=======
-    transition: 1s;
-    
->>>>>>> 417f00d1302ce97167a4eb0a9fa29b9af35c5603
+    margin-bottom: 150px;
 }
 .pad{
     padding: 5vw 0 5vw 0;
@@ -326,6 +322,18 @@ footer
     margin-left: 12px;
     
 }
+.sdeveloppement{
+    display: flex;
+    padding: 0px 50px 10px 50px;
+}
+.sdeveloppement .dev{
+    padding: 0px 20px 0px 20px;
+}
+.dev
+{
+    width: 33%;
+}
+
 @media(max-width:860px)
 {
     .img_presentation
@@ -369,7 +377,13 @@ footer
     {
         margin-top: 6%;
     }
-    .
+    .sdeveloppement
+    {
+        flex-direction: column;
+    }
+    .dev
+    {
+        width: 100%;
+        text-align: center;
+    }
 }
-
-
