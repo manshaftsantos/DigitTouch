@@ -87,6 +87,8 @@ footer
     transition: 2s;
     transition: 1s;
 
+    transition: 2s;
+    margin-bottom: 150px;
 }
 .pad{
     padding: 5vw 0 5vw 0;
@@ -498,6 +500,7 @@ footer
 {
     margin-left: 8.5%;
 }
+<<<<<<< HEAD
 .sujet
 {
     background-image: url(../img/fond_section_two.jpg);
@@ -532,6 +535,17 @@ td
     background-color: blue;
     border-radius: 10%;
     padding: 5px;
+}
+.sdeveloppement{
+    display: flex;
+    padding: 0px 50px 10px 50px;
+}
+.sdeveloppement .dev{
+    padding: 0px 20px 0px 20px;
+}
+.dev
+{
+    width: 33%;
 }
 @media(max-width:860px)
 {
@@ -575,7 +589,13 @@ td
     {
         margin-top: 6%;
     }
-    .
+    .sdeveloppement
+    {
+        flex-direction: column;
+    }
+    .dev
+    {
+        width: 100%;
+        text-align: center;
+    }
 }
-
-
