@@ -13,19 +13,17 @@
 
 <section class="zone_message">  
     <div class="titre">
-    <table>
-    <tr> <a href="forum.php"class="le_forum" >cathégories</a> </tr>
-    <tr><a  class="les_messages" href="forum.messages.php">Sujets</a> </tr>  
-    <tr><a  class="les_messages" href="forum.messages.php">Messages</a> </tr>
+        <a href="forum.php"class="le_forum" >Forum</a> |
+        <a  class="les_messages" href="forum.messages.php">Méssages</a> |
+        <a  class="les_messages" href="forum.messages.php">Cathegories</a> 
         <form action="" class="form_class"  ><input type="search" class="recherche" placeholder="Rechercher..." name="" id=""><input type="button"  class="bouton_recherche" value=""></form>
-   
-    </table>
     </div>
-    <div class="message_division">
-        <td>nom_cat</td>    
-        <div class="nom_sujet">nom_sujet</div>
-    </div>
+    <div class="color">
     
+                
+             </div>
+        </div>
+    </div>
 </section>
 
 
