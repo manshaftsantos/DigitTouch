@@ -26,21 +26,17 @@
         <div class="dev">
                 <img  src="img/log1.png" alt="">
                 <h2>Logo</h2>
-                <p class="slogan"> Faites bonne impression à vos utilisateurs 
-                en leur offrant un design alliant esthétique
-                et  expérience utilisateur inouïe.</p>
+                <p class="slogan"> Presentez une meilleure image de vous et illustrez vous par un logo representatif et illustratif.</p>
         </div>
         <div class="dev">
                 <img  src="img/log2.png" alt="">
-                <h2>Sécurité</h2>
-                <p class="slogan">Vos données sont importantes. 
-                Nous faisons de la sécurité et de l'intégrité de vos données une priorité.</p>
+                <h2>Flyers</h2>
+                <p class="slogan">Attirez l'attention sur un evenement grace a un flyer tres illustratif et avec un design unique.</p>
         </div>
         <div class="dev">
                 <img  src="img/log3.png" alt="">
-                <h2>Visibilité sur le web</h2>
-                <p class="slogan">Apparaître dans les résultats  de recherche, c'est bien. 
-                Apparaître devant ses concurrents, c'est mieux.</p> 
+                <h2>Carte de visite</h2>
+                <p class="slogan">Representer votre institution en un seul petit bout de carton.</p> 
         </div>
     </div>
     <div class="sdeveloppement">
