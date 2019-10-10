@@ -27,7 +27,7 @@
          <div class="user_msg" >
          Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum cumque voluptatibus veniam atque fugiat cum tempore repellat error placeat velit similique, aliquam omnis quia impedit, natus itaque ea voluptatem est.
          </div>
-         <div class="rep"><a href=""><div class="btn_rep">repondre</div></a></div>
+         <div class="rep"><a href=""><div class="btn_savoir btn_rep">repondre</div></a></div>
       </div>
       <div class="footer_msg">
           <div class="user_date" >le 12.03.2019 à 15h</div>
@@ -42,7 +42,7 @@
          <div class="user_msg" >
          Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum cumque voluptatibus veniam atque fugiat cum tempore repellat error placeat velit similique, aliquam omnis quia impedit, natus itaque ea voluptatem est.
          </div>
-         <div class="rep"><a href=""><div class="btn_rep">repondre</div></a></div>
+         <div class="rep"><a href=""><div class="btn_savoir btn_rep">repondre</div></a></div>
       </div>
       <div class="footer_msg">
           <div class="user_date" >le 12.03.2019 à 15h</div>
