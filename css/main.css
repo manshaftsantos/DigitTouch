@@ -111,15 +111,6 @@ footer
     font-size: 20px;
     transition: 1s;
 }
-.header_reponse
-{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    text-decoration: underline;
-    height: 17px;
-    width: 18%;
-    padding-left: 12px;
-    display: inline-block
-}
 .section_two
 {
     background-image: url(../img/fond_section_two.jpg);
@@ -155,18 +146,50 @@ footer
 }
 .titre
 {
-    border-bottom: 1px solid black;
-    height: 7%;
-    padding: 17px;
-    padding-left: 100px;
-    background-color: #247fe6e5;
+    font-style: italic;
+    font-weight: bolder;
+}
+.nav_forum
+{
+    background-color: rgb(152, 152, 247);
+    border: 1px solid black;
+    margin: auto;
+    font-style: oblique;
+    font-weight: bold;
+}
+.ul_forum
+{
+  display: flex;
+  height: 100%;
+  width: 100%;
+  color: blanchedalmond;
+  
+}
+.li_forum
+{
+    
+}
+.a_forum :hover
+{
+    color:blue;
+    text-decoration: underline;
+}
+.a_forum
+{
+    display: flex;
+    width: 33%;
+    height: 100%;
+}
+.active
+{
+    color:blue;
+    
 
 }
+
 .formulaire
 {
     width: 70%;
-
-    
     box-shadow: 1px 0px 10px 0px rgba(71, 68, 68, 0.322); 
     
 }
@@ -378,6 +401,11 @@ footer
     left: 117.8%;
     top:0%;
 }
+.rep{
+    width: 20%;
+    border-left: 1px solid rgb(207, 199, 199);
+    
+}
 .onze
 {
     left: 167%;
@@ -396,32 +424,11 @@ footer
     border-bottom: 10px solid rgb(255, 255, 255);
     display: flex;
     flex-direction: column;
-    background-color: rgba(255, 255, 255, 0.918);
+    background-color: rgb(211, 229, 240);
     
 }
-
-.div_msg
-{
-    border-bottom: 10px solid rgb(233, 230, 230);
-    display: flex;
-    flex-direction: column;
-    background-image: url(../img/fond_section_two.jpg);
-    
-}
-.b_envoyer
-{
-    display: inline-block;
-   padding-top: 12px;
-   padding-left: 12px
-    
-    
-}
-.user_name
-{
-    margin-left: 15px;
-    height: 12px;
-    display: inline
-
+.div_msg2:hover{
+    background-color: rgb(216, 230, 247);
 }
 .pseudo_msg
 {
@@ -430,17 +437,35 @@ footer
 }
 .user_msg 
 {
-    
+   /* border: 1px solid rgb(190, 181, 181);*/
     padding: 10px;
-    width: 80%;
-    box-shadow: 1px 0px 1px  rgba(182, 179, 179, 0.658);
+   
 }
 .user_pseudo
 {
-    width: 10%;
-    height: 50px;
-    padding-left: 10px;
-    box-shadow: 1px 0px 1px  rgba(182, 179, 179, 0.658);
+   padding-left: 10px;
+   padding-right: 10px;
+   text-align: center;
+   background-color:rgb(218, 218, 252);
+}
+.pp
+{
+    height:70px;
+    width: 70px;
+    border: 1px solid darkgray;
+    border-radius: 100%;
+    text-align: center;
+}
+.btn_rep{
+    color: #151519;
+    background-color:#247fe6e5;
+    border: none;
+    width: 60px;
+    padding: 5px;
+    border-radius: 3px;
+    transition: 1s;
+    margin-top: 30px;
+    margin-left: 10px
 }
 .footer_msg
 {
@@ -448,36 +473,9 @@ footer
     justify-content: flex-end;
     
 }
-.user_icone
-{
-    width: 22%;
-    height: 55%;
-    border: 1px solid rgb(128, 195, 250);
-    background-color: rgb(128, 195, 250);
-    border-radius: 100%;
-    margin-top: 12px;
-    display: inline-block;
-    
-}
-.no_reponse
-{
-    padding-top: 2%;
-    padding-left: 30px;
-    
-}
 .user_date
 {
-    
-    height: 12px;
-    margin-right: 9%
-}
-.reponse
-{
-    display: inline;
-    margin-left: 60.4%;
-    padding-left: 30px;
-    border-left: 1px solid black;
-    
+    margin-right: 10%;
 }
 .reponses
 {
@@ -486,10 +484,12 @@ footer
 }
 .btn_reponses
 {
-    background-color: rgb(107, 107, 170);
+    
     width: 100px;
-    border: 1px solid darkgray;
-    font-weight: bolder;
+    font-style: oblique;
+    text-align: center;
+    margin: 10px;
+    font-weight: bold;
 }    
 .scontact
 {
@@ -555,7 +555,6 @@ footer
 {
     margin-left: 8.5%;
 }
-
 .sujet
 {
     background-image: url(../img/fond_section_two.jpg);
@@ -653,6 +652,4 @@ td
         width: 100%;
         text-align: center;
     }
-   
-   
 }

@@ -22,18 +22,12 @@
     <div class="color">
     <div class="formulaire"> 
         <form action="" method="post" class="form">
-            <select  name="select" id="" class="select">
-                <option >programation</option>
-                <option >dévellopement web</option>
-                <option >photoshop</option>
-                <option >maintenance</option>
-
-
+            <select name="select" id="" class="select">
+                <option value="html">html</option>
+                <option value="css">css</option>
             </select><br><br>
         
-           <select name="" id="" class="text">
-           <option value="">sdsds</option>
-           </select>
+            <input type="text" name="titre" placeholder="  sujet..." class="text" ><br><br>
             <textarea name="commentaire" id="" cols="30" rows="10" class="comment" placeholder=" Aaa..."></textarea><br>
             <div class="connection">
                 <input type="text" name="pseudo" placeholder=" pseudo" class="pseudo">
