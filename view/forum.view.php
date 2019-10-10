@@ -12,11 +12,13 @@
 <?php include("include/header.php") ?>
 
 <section class="zone_message">  
-<div class="titre">
-         <span class = "lien_forum"><a  class="les_messages" href="forum.messages.php">messages recents</a></span>
-         <span class = "lien_forum"><a href="forum.php"class="le_forum" >posez votre problème</a></span>
-         <span class = "lien_forum"><a href="sujet.php"class="le_forum" >sujets</a></span>
-    </div>
+<nav class="nav_forum">
+               <ul class="ul_forum">
+                  <a  class="a_forum" href="forum.messages.php"><li class="li_forum">messages recents</li></a>
+                  <a href="forum.php"class="a_forum active" > <li class="li_forum active">posez votre problème</li></a>
+                  <a href="sujet.php"class="a_forum " ><li class="li_forum">sujets</li></a>
+               </ul>
+         </nav>
     <div class="color">
     <div class="formulaire"> 
         <form action="" method="post" class="form">
