@@ -26,7 +26,7 @@
         <div class="dev">
                 <img  class="iphone" src="img/ip.png" alt="">
                 <h2>Création d'application pour ios</h2>
-                <p class="slogan"> Iphone aujourd'hui a une grande communauté d'utilisateur
+                <p class="slogan"> Apple aujourd'hui a une grande communauté d'utilisateur
                 alors pensez à créer votre application ios à but lucratif .</p>
         </div>
         <div class="dev andro">
@@ -49,7 +49,7 @@
         <h2>Besoin</h2>
         <hr id="hr1">
         <hr id="hr2">
-        <p class="slogan">Besoin d'un site web? notre equipe vous offre <br> un excellent design,  une tres bonne visibilité et une bonne structure </p>
+        <p class="slogan">Besoin d'une application mobile ? notre equipe vous offre <br> un excellent design et une bonne structure. </p>
         <a href="contact.php"><button class="btn_savoir"> Contactez nous </button> </a>
     </div>
     

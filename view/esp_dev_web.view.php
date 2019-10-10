@@ -54,8 +54,8 @@
         <div class="dev">
                 <img  src="img/prise.png" alt="">
                 <h2>Suivi continu</h2>
-                <p class="slogan">Concentrez-vous sur vos affaires : nous vous proposons d'héberger 
-                    votre projet et de veiller sur lui en continu. (optionnel)</p>
+                <p class="slogan">Concentrez-vous sur vos affaires : nous vous proposons de 
+                    veiller sur votre projet en continu. (optionnel)</p>
         </div>
         <div class="dev">
                 <img  src="img/client.png" alt="">
@@ -68,7 +68,7 @@
         <h2>Besoin</h2>
         <hr id="hr1">
         <hr id="hr2">
-        <p class="slogan">Besoin d'un site web? notre equipe vous offre <br> un excellent design,  une tres bonne visibilité et une bonne structure </p>
+        <p class="slogan">Besoin d'un site web ? notre equipe vous offre <br> un excellent design,  une très bonne visibilité et une bonne structure. </p>
         <a href="contact.php"><button class="btn_savoir"> Contactez nous </button> </a>
     </div>
     
