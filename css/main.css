@@ -605,6 +605,19 @@ td
 {
     width: 33%;
 }
+.desc{
+    display: flex;
+    justify-content: space-around;
+}
+.desc h1{
+    color: #151519;
+}
+.desc .slogan,h1{
+    font-family: lucida;
+}
+.desc .slogan{
+    font-size: 15px;
+}
 @media(max-width:860px)
 {
     .img_presentation
