@@ -144,6 +144,7 @@ footer
     background-image: url(../img/fond_section_two.jpg);
     margin-bottom: 50px;
 }
+
 .titre
 {
     font-style: italic;
@@ -609,6 +610,19 @@ td
 .dev
 {
     width: 33%;
+}
+.desc{
+    display: flex;
+    justify-content: space-around;
+}
+.desc h1{
+    color: #151519;
+}
+.desc .slogan,h1{
+    font-family: lucida;
+}
+.desc .slogan{
+    font-size: 15px;
 }
 @media(max-width:860px)
 {

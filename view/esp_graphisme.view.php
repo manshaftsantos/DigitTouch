@@ -26,17 +26,17 @@
         <div class="dev">
                 <img  src="img/log4.png" alt="">
                 <h2>Logo</h2>
-                <p class="slogan"> Presentez une meilleure image de vous et illustrez vous par un logo representatif et illustratif.</p>
+                <p class="slogan"> Présentez une meilleure image de vous en l'illustrant par un logo représentatif et illustratif.</p>
         </div>
         <div class="dev">
                 <img  src="img/log.png" alt="">
                 <h2>Flyers</h2>
-                <p class="slogan">Attirez l'attention sur un evenement grace a un flyer tres illustratif et avec un design unique.</p>
+                <p class="slogan">Attirez l'attention sur un événement grace a un flyer très illustratif et avec un design unique.</p>
         </div>
         <div class="dev">
                 <img  src="img/log5.png" alt="">
                 <h2>Carte de visite</h2>
-                <p class="slogan">Pour votre communication professionnelle et votre extension commerciale, representer votre institution avec un design unique.</p> 
+                <p class="slogan">Pour votre communication professionnelle et votre extension commerciale, représenter votre institution avec un design unique.</p> 
         </div>
     </div>
    
@@ -44,7 +44,7 @@
         <h2>Besoin</h2>
         <hr id="hr1">
         <hr id="hr2">
-        <p class="slogan">Besoin d'un site web? notre equipe vous offre <br> un excellent design,  une tres bonne visibilité et une bonne structure </p>
+        <p class="slogan">Besoin d'une illustration ? notre equipe vous offre <br> un excellent design. </p>
         <a href="contact.php"><button class="btn_savoir"> Contactez nous </button> </a>
     </div>
     

@@ -14,9 +14,9 @@
 <section class="section_one pad">
     <div class="texte_presentation">
         <h1>
-            <span>DigitalTouch </span>, la solution pour donner vie a vos idees.
+            <span>DigitalTouch </span>, la solution pour donner vie à vos idées.
         </h1>
-        <p class="slogan">Pensez et nous le realisons.</p>
+        <p class="slogan">&lt;&lt; Pensez , nous réalisons &gt;&gt;</p>
     </div>
     <div class="img_presentation">
     <div id='alogos'>
@@ -55,7 +55,7 @@
         </div>    
         <div class="texte_presentation">
             <h1 class="texte_noir">Création d'application mobile</h1>
-            <p class="slogan">Nos applications mobiles sont performantes, développées pour Android et iOS 
+            <p class="slogan">Nos applications mobiles sont performantes, développées pour Android, iOS et Jio 
             et offrent une expérience utilisateur optimale.</p>
             <a href="esp_dev_mobile.php"><button class="btn_savoir">  En savoir plus </button> </a>
     </div>    
