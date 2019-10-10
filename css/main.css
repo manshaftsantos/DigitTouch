@@ -235,13 +235,12 @@ footer
 }
 .connection
 {
-    
-    
-    display: flex;
+     display: flex;
     justify-content: space-between;
+   
 
 }
-.pseudo, .email
+.c_pseudo, .c_email
 {
     height: 25px;
     border-radius: 5px;
@@ -506,6 +505,7 @@ footer
     padding-top: 5vh;
 }
 .mcontact h1{
+    text-align: center;
     color: #151519;
 }
 #hr1{
@@ -522,6 +522,7 @@ footer
 }
 .tcontact
 {
+    text-align: center;
     color: rgb(116, 109, 109);
     font-size: 18px;
     font-family: system-ui;
@@ -532,7 +533,15 @@ footer
     grid-template-columns: 35% 35% 35%;
     width: 83%;
     margin: auto;
-    
+}
+
+.textarea
+{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 82%;
+    font-weight: bolder;
 }
 .cform label
 {
@@ -676,4 +685,23 @@ td
         width: 100%;
         text-align: center;
     }
+    .cform
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .textarea
+    {
+        width: 67%;
+        margin-left: 8.2%;
+    }
+    .connection
+    {
+        flex-direction: column;
+    }
+    .c_pseudo, .c_email
+{
+   width: 100%
+}
+   
 }

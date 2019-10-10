@@ -30,8 +30,8 @@
             <input type="text" name="titre" placeholder="  sujet..." class="text" ><br><br>
             <textarea name="commentaire" id="" cols="30" rows="10" class="comment" placeholder=" Aaa..."></textarea><br>
             <div class="connection">
-                <input type="text" name="pseudo" placeholder=" pseudo" class="pseudo">
-                <input type="email" name="email" placeholder=" Email" class="email" >
+                <input type="text" name="pseudo" placeholder=" pseudo" class="c_pseudo"><br>
+                <input type="email" name="email" placeholder=" Email" class="c_email" >
             </div><br>
             <div class="check">
                 <div class="check1"><input type="checkbox" name="notification" class="check_box" >

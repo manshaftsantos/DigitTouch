@@ -15,7 +15,6 @@
 <nav class="nav_forum">
                <ul class="ul_forum">
                   <a  class="a_forum" href="forum.messages.php"><li class="li_forum">&lt;&lt;afficher le message</li></a>
-                 
                </ul>
     
    <div class="div_msg2">
