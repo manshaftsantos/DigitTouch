@@ -463,7 +463,15 @@ footer
 {
     width: 33%;
 }
-
+/*.andro
+{
+    margin-left: 22vw;
+}
+.iphone, .android
+{
+    padding-left: 8vw;
+}
+*/
 @media(max-width:860px)
 {
     .img_presentation
@@ -514,5 +522,9 @@ footer
     {
         width: 100%;
         text-align: center;
+    }
+    .andro
+    {
+    margin:auto;
     }
 }
