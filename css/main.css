@@ -615,6 +615,16 @@ td
 .desc .slogan{
     font-size: 15px;
 }
+.desc img
+{
+    transform: scale(1,1); 
+    transition: .6s;
+}
+.desc img:hover
+{
+    transform: scale(1.04,1.04);
+    transition: .6s;
+}
 @media(max-width:860px)
 {
     .img_presentation
