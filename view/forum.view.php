@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<?php $current = "forum" ?>
+<?php $current = "forum " ?>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -12,10 +12,13 @@
 <?php include("include/header.php") ?>
 
 <section class="zone_message">  
-    <div class="titre">
-        <a href="forum.php"class="le_forum" >Forum</a> |
-        <a  class="les_messages" href="forum.messages.php">Méssages</a>
-    </div>
+<nav class="nav_forum">
+               <ul class="ul_forum">
+                  <a  class="a_forum" href="forum.messages.php"><li class="li_forum">messages recents</li></a>
+                  <a href="forum.php"class="a_forum active" > <li class="li_forum active">posez votre problème</li></a>
+                  <a href="sujet.php"class="a_forum " ><li class="li_forum">sujets</li></a>
+               </ul>
+         </nav>
     <div class="color">
     <div class="formulaire"> 
         <form action="" method="post" class="form">

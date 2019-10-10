@@ -24,23 +24,23 @@
 
     <div class="sdeveloppement">
         <div class="dev">
-                <img  class="iphone" src="img/iphone.png" alt="">
+                <img  class="iphone" src="img/ip.png" alt="">
                 <h2>Création d'application pour ios</h2>
                 <p class="slogan"> Iphone aujourd'hui a une grande communauté d'utilisateur
                 alors pensez à créer votre application ios à but lucratif .</p>
         </div>
         <div class="dev andro">
-                <img class="android" src="img/android.png" alt="">
-                <h2>Création d'application pour android</h2>
-                <p class="slogan">Devenu le système mobile du 21<sup>e</sup>siècle, c'est à dire
-                qu'il est très répandu sur le globe alors confiez nous votre idée et nous la
-                transformons en application android révolutionnaire.</p> 
+                <img class="android" src="img/jio.png" alt="">
+                <h2>Création d'application pour jio</h2>
+                <p class="slogan">Nouvellement arrivé sur le marché fait deja
+                    son buzz alors créeons ensemble une application unique et universel
+                pour Jio. </p> 
         </div>
         <div class="dev andro">
-                <img class="android" src="img/android.png" alt="">
+                <img class="android" src="img/pris.png" alt="">
                 <h2>Création d'application pour android</h2>
-                <p class="slogan">Devenu le système mobile du 21<sup>e</sup>siècle, c'est à dire
-                qu'il est très répandu sur le globe alors confiez nous votre idée et nous la
+                <p class="slogan">La plateforme mobile la plus utilisé
+                 alors confiez nous votre idée et nous la
                 transformons en application android révolutionnaire.</p> 
         </div>
     </div>
