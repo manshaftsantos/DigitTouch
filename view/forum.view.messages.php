@@ -16,31 +16,32 @@
          <span class = "lien_forum"><a  class="les_messages" href="forum.messages.php">messages recents</a></span>
          <span class = "lien_forum"><a href="forum.php"class="le_forum" >posez votre problème</a></span>
          <span class = "lien_forum"><a href="sujet.php"class="le_forum" >sujets</a></span>
-        
+         <div class="reponse">reponses</div>
     </div>
   
-   <div class="div_msg2">
+  
+    <div class="div_msg">
       <div class="pseudo_msg">
-         <div class="user_pseudo" >pseudo</div>
+         <div class="user_pseudo" > <div class="user_icone"></div> <div class="user_name">pseudo</div> </div>
          <div class="user_msg" >
          Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum cumque voluptatibus veniam atque fugiat cum tempore repellat error placeat velit similique, aliquam omnis quia impedit, natus itaque ea voluptatem est.
          </div>
+         <div class="no_reponse"> <a href="reponses.php">12822</a></div>
       </div>
       <div class="footer_msg">
           <div class="user_date" >le 12.03.2019 à 15h</div>
-        <div class="btn_savoir"><a href="reponses.php">reponses</a></div>
       </div>
    </div>
-   <div class="div_msg">
+   <div class="div_msg2">
       <div class="pseudo_msg">
-         <div class="user_pseudo" >pseudo</div>
+         <div class="user_pseudo" > <div class="user_icone"></div> <div class="user_name">pseudo</div></div>
          <div class="user_msg" >
          Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum cumque voluptatibus veniam atque fugiat cum tempore repellat error placeat velit similique, aliquam omnis quia impedit, natus itaque ea voluptatem est.
          </div>
+         <div class="no_reponse"> <a href="reponses.php">2932</a></div>
       </div>
       <div class="footer_msg">
           <div class="user_date" >le 12.03.2019 à 15h</div>
-         <div class="btn_savoir"><a href="reponses.php">reponses</a></div>
       </div>
    </div>
    

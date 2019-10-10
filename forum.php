@@ -1,1 +1,4 @@
-<?php include("view/forum.view.php"); ?>
+<?php include("view/forum.view.php");
+
+
+?>

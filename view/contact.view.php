@@ -30,8 +30,13 @@
                 
                 
         </div>
-              <br>  <input class="btn_savoir lsub" type="submit" value="Envoyer">
+              <br>  <input class="btn_savoir lsub" name="envoyer" type="submit" value="Envoyer">
     </form>
+    <?php
+    if(isset($error)){
+        echo $error;
+    }
+    ?>
 </section>
 
 <!---------Footer------------------------------------------->
