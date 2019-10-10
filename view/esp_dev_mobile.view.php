@@ -12,12 +12,12 @@
 <!---------Header------------------------------------------->
 <?php include("include/header.php")?>
 <section class="scontact">
-    <div align="center" class="mcontact">
+    <div  class="mcontact">
         <h2>Notre Savoir-Faire</h2>
         <hr id="hr1">
         
     </div>
-    <div class="tcontact" align="center">
+    <div class="tcontact">
         <p class="slogan">Nos prestations sont sur mesure et uniques. <br> 
             Chaque réalisation embarque notre expertise dans les domaines suivants.</p>
     </div>
