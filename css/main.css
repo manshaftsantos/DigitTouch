@@ -401,6 +401,11 @@ footer
     left: 117.8%;
     top:0%;
 }
+.rep{
+    width: 20%;
+    border-left: 1px solid rgb(207, 199, 199);
+    
+}
 .onze
 {
     left: 167%;
@@ -419,15 +424,11 @@ footer
     border-bottom: 10px solid rgb(255, 255, 255);
     display: flex;
     flex-direction: column;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(211, 229, 240);
+    
 }
-
-.div_msg
-{
-    border-bottom: 10px solid rgb(233, 230, 230);
-    display: flex;
-    flex-direction: column;
-    background-image: url(../img/fond_section_two.jpg);
+.div_msg2:hover{
+    background-color: rgb(198, 216, 238);
 }
 .pseudo_msg
 {
@@ -455,6 +456,17 @@ footer
     border-radius: 100%;
     text-align: center;
 }
+.btn_rep{
+    color: #151519;
+    background-color:#247fe6e5;
+    border: none;
+    width: 60px;
+    padding: 5px;
+    border-radius: 3px;
+    transition: 1s;
+    margin-top: 30px;
+    margin-left: 10px
+}
 .footer_msg
 {
     display: flex;
@@ -472,9 +484,8 @@ footer
 }
 .btn_reponses
 {
-    background-color: rgb(118, 118, 255);
+    
     width: 100px;
-    border: 1px solid darkgray;
     font-style: oblique;
     text-align: center;
     margin: 10px;
@@ -544,6 +555,10 @@ footer
 {
     margin-left: 8.5%;
 }
+<<<<<<< HEAD
+
+=======
+>>>>>>> bcf36f926eff1e1a72d805e61303cce6fc7c316c
 .sujet
 {
     background-image: url(../img/fond_section_two.jpg);

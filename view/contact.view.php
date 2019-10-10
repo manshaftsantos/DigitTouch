@@ -11,6 +11,7 @@
 <!---------Header------------------------------------------->
 <?php include("include/header.php")?>
 <section class="scontact">
+
     <div align="center" class="mcontact">
         <h1>Nous contacter</h1>
         <hr id="hr1">
@@ -32,6 +33,7 @@
         </div>
               <br>  <input class="btn_savoir lsub" type="submit" value="Envoyer">
     </form>
+
 </section>
 
 <!---------Footer------------------------------------------->

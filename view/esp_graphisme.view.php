@@ -11,7 +11,44 @@
 <body>
 <!---------Header------------------------------------------->
 <?php include("include/header.php")?>
+<section class="scontact">
+    <div align="center" class="mcontact">
+        <h2>Notre Savoir-Faire</h2>
+        <hr id="hr1">
+        
+    </div>
+    <div class="tcontact" align="center">
+        <p class="slogan">Nos prestations sont sur mesure et uniques. <br> 
+            Chaque réalisation embarque notre expertise dans les domaines suivants.</p>
+    </div>
 
+    <div class="sdeveloppement">
+        <div class="dev">
+                <img  src="img/log4.png" alt="">
+                <h2>Logo</h2>
+                <p class="slogan"> Presentez une meilleure image de vous et illustrez vous par un logo representatif et illustratif.</p>
+        </div>
+        <div class="dev">
+                <img  src="img/log.png" alt="">
+                <h2>Flyers</h2>
+                <p class="slogan">Attirez l'attention sur un evenement grace a un flyer tres illustratif et avec un design unique.</p>
+        </div>
+        <div class="dev">
+                <img  src="img/log5.png" alt="">
+                <h2>Carte de visite</h2>
+                <p class="slogan">Pour votre communication professionnelle et votre extension commerciale, representer votre institution avec un design unique.</p> 
+        </div>
+    </div>
+   
+    <div align="center">
+        <h2>Besoin</h2>
+        <hr id="hr1">
+        <hr id="hr2">
+        <p class="slogan">Besoin d'un site web? notre equipe vous offre <br> un excellent design,  une tres bonne visibilité et une bonne structure </p>
+        <a href="contact.php"><button class="btn_savoir"> Contactez nous </button> </a>
+    </div>
+    
+</section>
 <!---------Footer------------------------------------------->
 <?php include("include/footer.php")?>
 </body>
