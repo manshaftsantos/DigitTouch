@@ -10,33 +10,35 @@
 </head>
 <body>
 <?php include("include/header.php") ?>
-
-<div class="titre">
-         <span class = "lien_forum"><a  class="les_messages" href="forum.messages.php">messages recents</a></span>
-         <span class = "lien_forum"><a href="forum.php"class="le_forum" >posez votre problème</a></span>
-         <span class = "lien_forum"><a href="sujet.php"class="le_forum" >sujets</a></span>
-    </div>
-
-    <div  class="sujet">
-        <table>
-            <tr class="ligne1">
-               <td> <h2>categories</h2></td>
-                <td><h2>sous categories</h2></td>
-            </tr>
-            <tr class="ligne2">
-                <td><a class="lien_cat" href="#">developpement web</a></td>
+<section class="zone_message">  
+    <nav class="nav_forum">
+                <ul class="ul_forum">
+                    <a  class="a_forum" href="forum.messages.php"><li class="li_forum">messages recents</li></a>
+                    <a href="forum.php"class="a_forum" > <li class="li_forum">posez votre problème</li></a>
+                    <a href="sujet.php"class="a_forum active" ><li class="li_forum active">sujets</li></a>
+                </ul>
+            </nav>
+        <div  class="sujet">
+            <table>
+                <tr class="ligne1">
+                <td> <h2>categories</h2></td>
+                    <td><h2>sous categories</h2></td>
+                </tr>
+                <tr class="ligne2">
+                    <td><a class="lien_cat" href="#">developpement web</a></td>
+                    <td></td>
+                </tr>
+                <tr>
+                <td> <a class="lien_cat" href="#"> creation aplications mobile</a></td>
                 <td></td>
-            </tr>
-            <tr>
-               <td> <a class="lien_cat" href="#"> creation aplications mobile</a></td>
-               <td></td>
-            </tr>
-            <tr>
-                <td><a class="lien_cat" href="#">logos</a> </td>
-                <td></td>
-            </tr>
-        </table>
-    </div>
+                </tr>
+                <tr>
+                    <td><a class="lien_cat" href="#">logos</a> </td>
+                    <td></td>
+                </tr>
+            </table>
+        </div>
+</section>
 <?php include("include/footer.php") ?>
 </body>
 </html>
