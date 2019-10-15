@@ -32,8 +32,9 @@ include('php/config.php')
       <input class="ip" type="password" name="mdp" placeholder="Mot de passe"> <br> <br>
       <input class="ip" type="password" name="mdp2" placeholder="Verifier mot de passe"> <br> <br>
       <input class="ip" type="email" name="email" placeholder="Email"> <br> <br>
-      <input  class="btn_savoir ip" type="submit" value="ENREGISTRER">
+      <input  class="btn_savoir ip" name="enregistrer" type="submit" value="ENREGISTRER">
    </form>
+   
 </section>
 
   
@@ -48,6 +49,11 @@ include('php/config.php')
                   <button id="nc">Nouveau Compte</button>
                </ul>
          </nav>
+         <?php if(isset($messages)){ ?>
+            <nav align="center" class="erreur">
+         <?php if(isset($messages)){echo $messages;}  ?>
+            </nav>
+         <?php } ?>
       <a href="reponses.php">      
          <div class="div_msg2">
             <div class="pseudo_msg">
