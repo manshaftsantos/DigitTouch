@@ -144,7 +144,12 @@ footer
     background-image: url(../img/fond_section_two.jpg);
     margin-bottom: 50px;
 }
-
+.erreur
+{
+    border: 2px solid red;
+    background-color: rgb(226, 228, 97);
+    padding: 10px  ;
+}
 .titre
 {
     font-style: italic;

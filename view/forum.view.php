@@ -1,3 +1,4 @@
+<?php include("php/config.php"); ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -19,19 +20,37 @@
                   <a href="sujet.php"class="a_forum " ><li class="li_forum">sujets</li></a>
                </ul>
          </nav>
+         <?php if(isset($message)){ ?>
+         <nav align="center" class="erreur">
+         <?php if(isset($message)){echo $message;}  ?>
+         </nav>
+         <?php } ?>
     <div class="color">
     <div class="formulaire"> 
         <form action="" method="post" class="form">
+            
             <select name="select" id="" class="select">
-                <option value="html">html</option>
-                <option value="css">css</option>
+                <optgroup label="Création d'application mobile">
+                    <option value="Java">Java</option>
+                    <option value="Kotlin">Kotlin</option>
+                    <option value="Kajak">Kajak</option>
+                </optgroup>    
+                <optgroup label="Design">
+                    <option value="Photoshop">Photoshop</option>
+                    <option value="Lightroom">Lightroom</option>
+                    <option value="Photoshop">Photoshop</option>
+                </optgroup>
+                <optgroup label="Developpement Web">
+                    <option value="Html">Html</option>
+                    <option value="Css">Css</option>
+                    <option value="Php">Php</option>
+                </optgroup>
             </select><br><br>
-        
-            <input type="text" name="titre" placeholder="  sujet..." class="text" ><br><br>
-            <textarea name="commentaire" id="" cols="30" rows="10" class="comment" placeholder=" Aaa..."></textarea><br>
+
+            <textarea name="commentaire" id="" cols="30" rows="10" class="comment" placeholder=" Aaa..." required></textarea><br>
             <div class="connection">
-                <input type="text" name="pseudo" placeholder=" pseudo" class="c_pseudo"><br>
-                <input type="email" name="email" placeholder=" Email" class="c_email" >
+                <input  type="text" name="pseudo" placeholder=" pseudo" class="c_pseudo"required><br>
+                <input  type="email" name="email" placeholder=" Email" class="c_email" required >
             </div><br>
             <div class="check">
                 <div class="check1"><input type="checkbox" name="notification" class="check_box" >
